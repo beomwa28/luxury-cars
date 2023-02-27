@@ -1,0 +1,270 @@
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #000000;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+.main-header__navigation-list {
+  list-style: none;
+  display: flex;
+  width: 515px;
+  justify-content: space-between;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header__navigation-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #030305;
+  text-decoration: none;
+}
+.main-header__navigation {
+  display: flex;
+}
+.main-header__logo {
+  margin-right: 244px;
+}
+.main-header {
+  padding: 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.first-screen {
+  padding-top: 105px;
+  padding-bottom: 154px;
+  background: url("img/background.png");
+}
+.main-title {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  /* or 88px */
+}
+.first-screen__text {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  width: 502px;
+}
+.first-screen__link {
+  text-decoration: none;
+  padding: 20px 0;
+  width: 334px;
+  display: block;
+  background: #030305;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.products__list {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px 24px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 360px;
+  align-items: center;
+  align-items: center;
+  max-width: 375px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.product__img {
+  margin-bottom: 15px;
+}
+
+.product__button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  width: 384px;
+  left: 0px;
+  top: 419px;
+  background: #030305;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  padding: 15px 0;
+}
+
+.description__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.description__img {
+  margin: 15px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #030305;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.products {
+  margin-bottom: 100px;
+  scroll-behavior: smooth; 
+}
+
+.ca__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #5d5d5f;
+  margin-bottom: 60px;
+}
+
+.ca__title {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  gap: 15px;
+}
+
+.form__input {
+  background: #ffffff;
+  border: 1px solid #5d5d5f;
+  padding: 22px 18px 22px 18px;
+  box-sizing: border-box;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #5d5d5f;
+}
+
+.form__input::-webkit-outer-spin-button,
+.form__input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.form__button {
+  padding: 20px;
+  background: #030305;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.ca__img {
+  position: absolute;
+  top: -40px;
+  right: -100px;
+  z-index: -1;
+}
+
+.ca__container {
+  position: relative;
+}
+
+.ca {
+  padding-bottom: 140px;
+  scroll-behavior: smooth; 
+}
+
+.main-footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.main-footer {
+  border-top: 1px solid #E5E5E5;;
+}
+
+html {
+  scroll-behavior: smooth
+}
